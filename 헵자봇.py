@@ -1,4 +1,6 @@
 import discord
+import os
+
 
 client = discord.Client()
 
@@ -31,5 +33,7 @@ async def on_message(message):
 
     if message.content.startswith('$송'):
         await message.channel.send('강욱')
-
-client.run('NzI1Mjc1MTQxMTUxNTIyODg4.XwFQiw.Hp0RqXUqOKIgMxto4MkoGeCmsvw')
+        
+        
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
