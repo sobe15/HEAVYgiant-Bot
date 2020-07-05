@@ -32,4 +32,4 @@ async def on_message(message):
     if message.content.startswith('$송'):
         await message.channel.send('강욱')
 
-client.run('NzI1Mjc1MTQxMTUxNTIyODg4.XwFGhw.SWvMz3_5xnn-BVIpSZmkxKEqXPE')
+client.run('NzI1Mjc1MTQxMTUxNTIyODg4.XwFQiw.Hp0RqXUqOKIgMxto4MkoGeCmsvw')
